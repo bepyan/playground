@@ -51,6 +51,14 @@ module.exports = {
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)',
       },
+      boxShadow: {
+        border: '0 0 0 1px hsl(var(--border))',
+        'border-focus':
+          '0 0 0 1px hsl(var(--ring)), 0 0 0 4px hsl(var(--ring) / .16)',
+        'border-invalid': '0 0 0 1px hsl(var(--destructive))',
+        'border-invalid-focus':
+          '0 0 0 1px hsl(var(--destructive)), 0 0 0 4px hsl(var(--destructive) / .16)',
+      },
       keyframes: {
         'accordion-down': {
           from: { height: 0 },

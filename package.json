@@ -3,10 +3,9 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
+    "dev": "bun --bun astro dev",
     "build": "astro build",
-    "preview": "astro preview",
+    "preview": "bun --bun astro preview",
     "astro": "astro"
   },
   "dependencies": {
@@ -20,6 +19,7 @@
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
     "astro": "^3.0.12",
+    "bun-types": "^1.0.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
     "lucide-react": "^0.276.0",
